@@ -1,0 +1,40 @@
+.start
+	&-inner
+		min-height: 486px
+		background: linear-gradient(102deg, #E8FFE8 17.38%, #D1F0FF 81.25%)
+		border-radius: 60px
+		// .start-inner__block
+		&__block
+			height: 486px
+			display: flex
+			justify-content: center
+			align-items: center
+			gap: 145px
+
+		// .start-inner__img
+		&__img
+			animation: turn 5s linear infinite
+			
+		// .start-inner__text-block
+		&__text-block
+			width: 432px
+
+		// .start-inner__title
+		&__title
+			font-size: 40px
+			line-height: 140%
+		// .start-inner__text
+		&__text
+			font-weight: 400
+			font-size: 18px
+			line-height: 136.7%
+			margin-top: 24px
+@keyframes turn
+	from
+		transform: rotate(0)
+	to
+		transform: rotate(360deg)
+	
+
+
+
